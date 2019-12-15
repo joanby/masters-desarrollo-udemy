@@ -1,0 +1,96 @@
+"Consultas de la información de los estudiantes y cursos. Solo lectura"
+type Query {
+    "Lista de los estudiantes de la academia"
+    estudiantes: [Estudiante!]!
+    "Información del estudiante de la academia seleccionado por ID"
+    estudiante(id: ID!): Estudiante!
+    "Lista de los cursos de la academia"
+    cursos: [Curso!]!
+    "Información del curso de la academia seleccionado por ID"
+    curso(curso: ID!): Curso!
+}
+
+"Operaciones para añadir, editar o eliminar información"
+type Mutation {
+    "Opción para añadir la información de un nuevo curso"
+    cursoNuevo(curso: CursoInput!): Curso!
+    "Opción para modificar / actualizar la información de un curso seleccionado"
+    modificarCurso(curso: CursoInput!) : Curso!
+    "Opción para eliminar / borrar la información de un curso seleccionado mediante el ID"
+    eliminarCurso(id: ID!): Curso!
+}
+
+"""
+Información de entrada para gestionar los datos de un curso, como puede ser añadir 
+y/o modificar los datos de un curso
+"""
+input CursoInput {
+    id: ID
+    title: String!
+    description: String!
+    clases: Int!
+    time: Float!
+    logo: String!
+    level: Nivel=TODOS
+    path: String!
+    teacher: String!
+}
+"Información de los estudiantes"
+type Estudiante {
+    "identificativo del estudiante"
+    id: ID!
+    "Nombre y apellidos del estudiante"
+    name: String!
+    "Email del estudiante"
+    email: String!
+    "Página web personal del estudiante"
+    website: String
+    "Lista de cursos a los que está inscrito el estudiante"
+    courses: [Curso!]!
+}
+
+"Información de un curso"
+type Curso {
+    "Identificador del curso"
+    id: ID!
+    "Título del curso"
+    title: String!
+    "Descripción del curso"
+    description: String!
+    "Número de clases del curso"
+    clases: Int!
+    "Tiempo en horas del curso"
+    time: Float!
+    "Logotipo del curso"
+    logo: String!
+    "Nivel del curso. El valor lo obtenemos de enum Nivel"
+    level: Nivel!
+    "Path del curso, en el que corresponde a la URL Principal de Udemy"
+    path: String!
+    "Nombre y apellidos del profesor"
+    teacher: String!
+    "Lista de estudiantes inscritos en el curso"
+    students: [Estudiante]
+    "Lista de valoraciones sobre el curso"
+    reviews: [Valoracion!]!
+}
+
+"Nivel de los cursos"
+enum Nivel {
+    TODOS
+    NOVATOS
+    INTERMEDIO
+    EXPERTO
+}
+
+"Valoraciones de los cursos"
+type Valoracion {
+    "Identificador de la valoración"
+    id: ID!
+    "Nombre del que añáde la valoración"
+    name: String!
+    "Puntuación de 0 a 5"
+    points: Float!
+    "Comentario de la valoración"
+    comment: String
+}

@@ -1,0 +1,86 @@
+[
+    {
+        "id": "1",
+        "name": "Leanne Graham",
+        "email": "Sincere@april.biz",
+        "website": "hildegard.org",
+        "courses": [
+           "1", "2"
+        ]
+    },
+    {
+        "id": "2",
+        "name": "Ervin Howell",
+        "email": "Shanna@melissa.tv",
+        "website": "anastasia.net",
+        "courses": [
+          "2", "4"
+       ]
+    },
+    {
+        "id": "3",
+        "name": "Clementine Bauch",
+        "email": "Nathan@yesenia.net",
+        "website": "ramiro.info",
+        "courses": [
+          "1", "2", "3"
+       ]
+    },
+    {
+        "id": "4",
+        "name": "Patricia Lebsack",
+        "email": "Julianne.OConner@kory.org",
+        "website": "kale.biz",
+        "courses": [
+          "1", "2", "4"
+       ]
+    },
+    {
+        "id": "5",
+        "name": "Chelsey Dietrich",
+        "email": "Lucio_Hettinger@annie.ca",
+        "website": "demarco.info",
+        "courses": [ ]
+    },
+    {
+        "id": "6",
+        "name": "Mrs. Dennis Schulist",
+        "email": "Karley_Dach@jasper.info",
+        "website": "ola.org",
+        "courses": [ "2" ]
+    },
+    {
+        "id": "7",
+        "name": "Kurtis Weissnat",
+        "email": "Telly.Hoeger@billy.biz",
+        "website": "elvis.io",
+        "courses": [
+          "1", "2", "3", "4"
+       ]
+    },
+    {
+        "id": "8",
+        "name": "Nicholas Runolfsdottir V",
+        "email": "Sherwood@rosamond.me",
+        "website": "jacynthe.com",
+        "courses": [
+          "1"
+       ]
+    },
+    {
+        "id": "9",
+        "name": "Glenna Reichert",
+        "email": "Chaim_McDermott@dana.io",
+        "website": "conrad.com",
+        "courses": [
+          "2"
+       ]
+    },
+    {
+        "id": "10",
+        "name": "Clementina DuBuque",
+        "email": "Rey.Padberg@karina.biz",
+        "website": "ambrose.net",
+        "courses": []
+    }
+ ]

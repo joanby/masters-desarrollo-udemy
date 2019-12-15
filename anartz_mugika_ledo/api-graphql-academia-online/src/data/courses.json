@@ -1,0 +1,95 @@
+[
+    {
+        "id": "1",
+        "title": "Compodoc: Crea documentación en proyectos Angular/Ionic/TS",
+        "description": "Crear documentación de calidad y MUY fácil de mantener con Compodoc para proyectos de Angular 2+ / Ionic 2+ / Typescript",
+        "clases": 73,
+        "time": 3.5,
+        "level": "MEDIUM",
+        "logo": "https://i.udemycdn.com/course/240x135/1777518_b681_6.jpg",
+        "path": "/compodoc-crea-documentacion-en-angular-ionic",
+        "teacher": "Anartz Mugika Ledo",
+        "reviews": [
+            {
+                "id": "1",
+                "name": "Juan Gómez Navarro",
+                "points": 4.5,
+                "comment": "Muy buen curso, justo lo que necesitaba!"
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "title": "NPM: Desarrollo y publicación de librerias en JS, TS, Angular",
+        "description": "¡Aprende desde 0 las nociones de NPM y a crear librerías Node en Javascript Typescript Angular con ejemplos prácticos!",
+        "clases": 276,
+        "time": 17.5,
+        "level": "ALL",
+        "logo": "https://i.udemycdn.com/course/240x135/1992318_a8ef_3.jpg",
+        "path": "/npm-librerias-node-con-js-typescript-angular-y-otras-herramientas",
+        "teacher": "Anartz Mugika Ledo",
+        "reviews": [
+            {
+                "id": "1",
+                "name": "Ruslan Gonzalez",
+                "points": 5,
+                "comment": "Lo que he aprendido en este curso no tiene precio, realmente el instructor ha hecho un buen trabajo. En relación a la temática creo que es importantísimo conocer cómo crear librerías ya que nos ayudará a reutilizar nuestro código y a ser más productivos en nuestros trabajos y desarrollos. Definitivamente he aprendido a hacerlo bien y utilizando las mejores prácticas. Gracias Anartz !"
+            },
+            {
+                "id": "2",
+                "name": "Estuardo Andrés Esquivel Díaz",
+                "points": 5,
+                "comment": "Aún no termino el curso pero debo de realizar mi evaluación para aquellas personas que aún no se deciden por adquirir el curso lo hagan, déjenme decirles que no se arrepentirán el curso cumple a creces su finalidad y te enseÃ±a muchos mas temas como integración continua , pruebas unitarias, interacción con servicios web de terceros, es una maravilla y el enfoque que tiene el tutor de orientarlo como apoyo hacia la comunidad le da un punto más. Cuando termine regresare a actualizar mi evaluación hasta el momento voy por la sección 9 y no tengo nada de que quejarme."
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "title": "Angular: De cero a experto (Angular 8+)",
+        "description": "Todo lo que necesitas saber de angular utilizando TypeScript y buenas prácticas ofrecidas por el equipo de angular.",
+        "clases": 326,
+        "time": 28.5,
+        "level": "ALL",
+        "logo": "https://i.udemycdn.com/course/240x135/1075334_8b5f_4.jpg",
+        "path": "/angular-2-fernando-herrera",
+        "teacher": "Fernando Herrera",
+        "reviews": [
+            {
+                "id": "1",
+                "name": "Aitor",
+                "points": 5,
+                "comment": "Buen profesor, buenas explicaciones, buen material y actualizado. Muy recomendado si quieres empezar a defenderte con Angular."
+            }
+        ]
+    },
+    {
+        "id": "4",
+        "title": "Flutter: Tu guía completa de desarrollo para IOS y Android ",
+        "description": "Push, Cámara, Mapas, REST API, SQLite, CRUD, Tokens, Storage, Preferencias de usuario, PlayStore, AppStore, Bloc y más!",
+        "clases": 264,
+        "time": 28.5,
+        "level": "ALL",
+        "logo": "https://i.udemycdn.com/course/240x135/2306140_8181.jpg",
+        "path": "/flutter-ios-android-fernando-herrera",
+        "teacher": "Fernando Herrera",
+        "reviews":[
+            {
+                "id": "1",
+                "name": "Christian",
+                "points": 5,
+                "comment": "Otro gran curso de Fernando Herrera, cada vez mejor, gracias por compartir tus conocimientos y ayudarnos a que todo sea mas facil y sencillo. Este curso ayuda a comprender bien flutter desde 0."
+            },
+            {
+                "id": "2",
+                "name": "Juan Antonio",
+                "points": 5,
+                "comment": "Fantástico, de saber nada de Dart y Flutter ahora soy capaz de crear aplicaciones 100% funcionales y bonitas. Recomendado!"
+            },
+            {
+                "id": "3",
+                "name": "Jose Luis",
+                "points": 5
+            }
+        ]
+    }
+]
